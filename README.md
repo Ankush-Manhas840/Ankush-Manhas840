@@ -2,6 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Hi%2C%20I'm%20Ankush&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20science%20and%20machine%20learning%20in%20Python&descAlignY=58&descSize=18" width="100%" alt="Header banner" />
 
+<a href="https://ankush-manhas840.github.io/"><img src="https://img.shields.io/badge/View%20my%20portfolio-ankush--manhas840.github.io-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View my portfolio" height="40" /></a>
+
+<br/><br/>
+
 <a href="https://github.com/Ankush-Manhas840/crop-yield-prediction">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Predicting+crop+yield+from+Indian+agricultural+data;Python+%7C+pandas+%7C+scikit-learn+%7C+Streamlit;Cleaning+messy+real-world+data;Measuring+error+before+trusting+a+model" alt="Typing animation" />
 </a>
