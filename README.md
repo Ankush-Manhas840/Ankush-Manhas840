@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Hi%2C%20I'm%20Ankush&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20science%20and%20machine%20learning%20in%20Python&descAlignY=58&descSize=18" width="100%" alt="Header banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Hi%2C%20I'm%20Ankush&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Machine%20learning%20systems%20and%20GenAI%20in%20Python&descAlignY=58&descSize=18" width="100%" alt="Header banner" />
 
 <a href="https://ankush-manhas840.github.io/"><img src="https://img.shields.io/badge/View%20my%20portfolio-ankush--manhas840.github.io-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white" alt="View my portfolio" height="40" /></a>
 
 <br/><br/>
 
-<a href="https://github.com/Ankush-Manhas840/crop-yield-prediction">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Predicting+crop+yield+from+Indian+agricultural+data;Python+%7C+pandas+%7C+scikit-learn+%7C+Streamlit;Cleaning+messy+real-world+data;Measuring+error+before+trusting+a+model" alt="Typing animation" />
+<a href="https://github.com/Ankush-Manhas840/fraud-detection-realtime">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Real-time+fraud+detection+with+Kafka+and+Redis;Now+building%3A+a+RAG+agent+over+annual+reports;Cleaning+messy+real-world+data;Measuring+error+before+trusting+a+model" alt="Typing animation" />
 </a>
 
 <br/>
@@ -17,8 +17,15 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
-[![Live demo](https://img.shields.io/badge/Live%20demo-Crop%20Yield%20Predictor-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://crop-yield-prediction-wpnuufdz2fc9tmbm4k8t3y.streamlit.app/)
+[![Fraud detection demo](https://img.shields.io/badge/Live%20demo-Fraud%20Check-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fraud-check.streamlit.app/)
+[![Used car demo](https://img.shields.io/badge/Live%20demo-Used%20Car%20Price-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://usedcarchecker.streamlit.app/)
+[![Crop yield demo](https://img.shields.io/badge/Live%20demo-Crop%20Yield%20Predictor-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://crop-yield-prediction-wpnuufdz2fc9tmbm4k8t3y.streamlit.app/)
 
 </div>
 
@@ -30,10 +37,25 @@
 class Ankush:
     def __init__(self):
         self.language = "Python"
-        self.tools = ["pandas", "scikit-learn", "Streamlit", "Jupyter"]
-        self.featured_project = "Crop Yield Predictor"
+        self.tools = ["pandas", "scikit-learn", "FastAPI", "Kafka", "Redis", "Docker", "Streamlit"]
+        self.featured_project = "Real-Time Fraud Detection"
+        self.currently_building = "FinSight: a RAG agent over Indian annual reports"
         self.approach = "build a weak baseline first, measure error per group, fix what the breakdown shows"
 ```
+
+---
+
+## Projects
+
+| Project | What it does | Stack | Links |
+|---|---|---|---|
+| **Real-Time Fraud Detection** | Streams card purchases through Kafka, keeps each card's history in Redis, scores them with a model behind FastAPI and explains every alert. Replaying 180,000 purchases from unseen customers caught 33 of 78 frauds. | Kafka, Redis, FastAPI, Docker, Streamlit | [Demo](https://fraud-check.streamlit.app/) · [Code](https://github.com/Ankush-Manhas840/fraud-detection-realtime) |
+| **Used Car Price Predictor** | Predicts used car prices in India from ~15,400 CarDekho listings. Random forest with test R² 0.94, against 0.79 for a linear baseline. | scikit-learn, Flask, Streamlit | [Demo](https://usedcarchecker.streamlit.app/) · [Code](https://github.com/Ankush-Manhas840/used-car-price-predictor) |
+| **Crop Yield Predictor** | Predicts crop yield for four crops across Indian states from government data. Details below. | pandas, scikit-learn, Streamlit | [Demo](https://crop-yield-prediction-wpnuufdz2fc9tmbm4k8t3y.streamlit.app/) · [Code](https://github.com/Ankush-Manhas840/crop-yield-prediction) |
+
+### Currently building: FinSight (Nov–Dec 2026)
+
+[**Source code**](https://github.com/Ankush-Manhas840/finsight): an agent that answers questions about Indian companies' annual reports with page citations, numbers calculated by code instead of guessed by the language model, and an evaluation set that measures accuracy at every version. Built with LangChain, LangGraph, Qdrant and Gemini. Work starts on 1 November, and the commit history shows progress day by day.
 
 ---
 
@@ -83,7 +105,7 @@ It is a portfolio project, not a forecasting tool: it interpolates within the ra
 <br/><br/>
 
 ![Followers](https://img.shields.io/github/followers/Ankush-Manhas840?style=for-the-badge&logo=github&color=58A6FF)
-![Last commit](https://img.shields.io/github/last-commit/Ankush-Manhas840/crop-yield-prediction?style=for-the-badge&logo=git&logoColor=white&color=58A6FF)
+![Last commit](https://img.shields.io/github/last-commit/Ankush-Manhas840/finsight?style=for-the-badge&logo=git&logoColor=white&color=58A6FF)
 
 <br/>
 
