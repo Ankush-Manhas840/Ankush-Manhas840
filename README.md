@@ -21,7 +21,6 @@
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 
 [![Fraud detection demo](https://img.shields.io/badge/Live%20demo-Fraud%20Check-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fraud-check.streamlit.app/)
 [![Used car demo](https://img.shields.io/badge/Live%20demo-Used%20Car%20Price-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://usedcarchecker.streamlit.app/)
@@ -55,7 +54,7 @@ class Ankush:
 
 ### Currently building: FinSight (Nov–Dec 2026)
 
-[**Source code**](https://github.com/Ankush-Manhas840/finsight): an agent that answers questions about Indian companies' annual reports with page citations, numbers calculated by code instead of guessed by the language model, and an evaluation set that measures accuracy at every version. Built with LangChain, LangGraph, Qdrant and Gemini. Work starts on 1 November, and the commit history shows progress day by day.
+[**Source code**](https://github.com/Ankush-Manhas840/finsight): an agent that answers questions about Indian companies' annual reports with page citations, numbers calculated by code instead of guessed by the language model, and an evaluation set that measures accuracy at every version. Planned stack: Gemini, LangGraph and Qdrant. Work started on 1 November 2026, and the commit history shows progress day by day. Done so far: a hand-checked answer key from the real reports, and a measured fix for finance short forms in search.
 
 ---
 
